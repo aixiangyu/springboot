@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class FirstController {
 
+    /**
+     * Home string.
+     *
+     * @return the string
+     */
     @RequestMapping("/")
     public String home(){
 
